@@ -1,0 +1,19 @@
+﻿{
+  "Header": {
+    "RequestUUID": "1234",
+    "ServiceRequestId": "AE.ESB.SDBSP.001",
+    "ServiceRequestVersion": "1.0",
+    "ChannelId": "ESB"
+  },
+  "RequestBody": {
+    "RequestBody": {
+      "ValueDt": "2014-01-28T00:00:00.000Z",
+      "AcctCurr": "INR",
+      "AcctInfo": {
+        "BankId": "211",
+        "BranchId": "004",
+        "AcctId": "401010015####"
+      }
+    }
+  }
+}

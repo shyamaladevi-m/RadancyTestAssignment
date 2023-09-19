@@ -1,0 +1,21 @@
+﻿{
+  "Header": {
+    "subHeader": {
+      "requestUUID": "TEST456172",
+      "serviceRequestId": "AE.TEST.FIN.SSTP.001",
+      "serviceRequestVersion": "1.0",
+      "channelId": "TEST"
+    }
+  },
+  "body": {
+    "fetchMultiAccountDetailsRequest": {
+      "requestBody": {
+        "asOfDate": "14122020",
+        "customerId": "1234567",
+        "source": "TEST",
+        "clientId": "TEST",
+        "freeText": "TEST"
+      }
+    }
+  }
+}

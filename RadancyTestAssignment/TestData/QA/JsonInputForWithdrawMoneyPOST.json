@@ -1,0 +1,23 @@
+﻿{
+  "SubHeader": {
+    "requestUUID": "ABC123",
+    "serviceRequestId": "OpenAPI",
+    "serviceRequestVersion": "1.0",
+    "channelId": " TBD "
+  },
+  "PaymentInitiateRequestBody": {
+    "cid": "2835",
+    "rid": "123456",
+    "crn": "123456",
+    "ver": "1.0",
+    "typ": "TEST",
+    "cny": "INR",
+    "rtu": "http://localhost:9092/testing/",
+    "ppi": "",
+    "re1": "MN",
+    "re2": "",
+    "re3": "",
+    "re4": "",
+    "cks": "ad5a4845d25e41a94ff9d520a59556063f756536511e8b718186d7c7599a0778"
+  }
+}

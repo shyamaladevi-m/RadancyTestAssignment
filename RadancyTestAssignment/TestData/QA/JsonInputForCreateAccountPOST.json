@@ -1,0 +1,34 @@
+{
+  "CreateProductRequest": {
+    "SubHeader": {
+      "requestUUID": "97f6b07e-b82d-4fed-9c57-80088ba23e30",
+      "serviceRequestId": "NB.GEN.PDT.ELIG",
+      "serviceRequestVersion": "1.0",
+      "channelId": "TBD"
+    },
+    "CreateProductRequestBody": {
+      "applicationReferenceId": "20191119123345678",
+      "mobileNumber": "91**********",
+      "productType": "SA",
+      "ConsentDetails": {
+        "otpReferenceId": "201f2d227gsd94010",
+        "otp": "123456"
+      },
+      "CustomerDemographics": {
+        "occupationType": "01",
+        "incomeRange": "2",
+        "mothersMaidenName": "******",
+        "CommunicationAddress": {
+          "addressLine1": "1 Hutatma Chowk",
+          "addressLine2": "1 Hutatma Chowk",
+          "addressLine3": "1 Hutatma Chowk",
+          "city": "MUMBAI",
+          "state": "MAHARASHTRA",
+          "pincode": "400099"
+        }
+      },
+      "accountSolId": "W023"
+    }
+  }
+
+}

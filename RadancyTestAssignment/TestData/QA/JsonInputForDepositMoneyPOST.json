@@ -1,0 +1,71 @@
+{
+  "SelfPayRequest": {
+    "SubHeader": {
+      "requestUUID": "97f6b07e-b82d-4fed-9c57-80088ba23e30",
+      "serviceRequestId": "NB.GEN.PDT.ELIG",
+      "serviceRequestVersion": "1.0",
+      "channelId": "TEST"
+    },
+    "SelfPayRequestBody": {
+      "customerId": " 918341030147 ",
+      "payees": [
+        {
+          "beneVpa": " 8341030147@axis ",
+          "beneName": " string ",
+          "bamount": " string ",
+          "ifsc": " AXIS0000478 ",
+          "accRefNumber": " 913010055324180 ",
+          "accountType": " string "
+        }
+      ],
+      "txnId": " sdfghjkldfghjkl ",
+      "amount": " 20 ",
+      "remarks": " string ",
+      "ac": {
+        "name": " string ",
+        "mmid": " string ",
+        "aeba": " Y ",
+        "mbeba": " Y ",
+        "accRefNumber": " 913010055324180 ",
+        "maskedAccnumber": " XXXX4180 ",
+        "ifsc": " AXIS0000478 ",
+        "atmpinlength": " 4 ",
+        "otpLength": " 6 "
+      },
+      "device": {
+        "mobile": " 918341030147 ",
+        "geocode": " string ",
+        "location": " string ",
+        "ip": " string ",
+        "type": " string ",
+        "id": " string ",
+        "os": " string ",
+        "app": " com . upi . axispay ",
+        "capability": " string ",
+        "gcmid": " string ",
+        "version": " string ",
+        "telecom": " string "
+      },
+      "cred": {
+        "type": " string ",
+        "subType": " string ",
+        "data": {
+          "code": " string ",
+          "ki": " string "
+        }
+      },
+      "customerRefid": " string ",
+      "mcc": " string ",
+      "orderId": " string ",
+      "refUrl": " string ",
+      "refCategory": "00",
+      "minamount": " string ",
+      "payeeAccount": " 913010055324180 ",
+      "payeeName": " string ",
+      "payeeIfsc": " AXIS0000478 ",
+      "payeeAcType": " string ",
+      "initmode": " string ",
+      "purpose": "string"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+﻿{
+  "GetDataByEnvironment": [
+    {
+      "environment": "QA",
+      "environmentData": [
+        {
+          "key": "BaseUrl",
+          "value": "https://apiportal.axisbank.com/gateway/"
+        },
+        {
+          "key": "CreateASavingsAccount",
+          "value": "mock/neo-banking/generic/api/v1/create-product"
+        },
+        {
+          "key": "DeleteASavingsAccount",
+          "value": "mock/neo-banking/generic/api/v1/"   
+        },
+        {
+          "key": "DepositMoney",
+          "value": "v1/openapi/upi/transactions/v1/selfpay"
+        },
+        {
+          "key": "CheckBalance",
+          "value": "v2/json/c24"
+        },
+        {
+          "key": "WithdrawMoney",
+          "value": "easypay2.0/frontend/index.php/api"
+        },  
+        {
+          "key": "Basic_Usernanme",
+          "value": "postman"
+        },
+        {
+          "key": "Basic_Password",
+          "value": "password"
+        }
+      ]
+    }
+  ]
+}
